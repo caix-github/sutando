@@ -1,0 +1,21 @@
+{
+  "name": "api-mysql",
+  "version": "1.0.0",
+  "description": "连接mysql数据库接口平台",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "nodemon": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "caixin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dayjs": "^1.11.10",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.2",
+    "sutando": "^1.0.3",
+    "uuid": "^9.0.1"
+  }
+}
